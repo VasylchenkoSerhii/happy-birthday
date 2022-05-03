@@ -1,0 +1,60 @@
+
+.grace {
+    max-width: 350px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 50%;
+    background-image: url(../images/ulya-bg-img.jpg);
+
+    @media screen and (min-width: 768px) {
+       max-width: 450px; 
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 550px;
+    }
+}
+.grace__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+.party {
+    max-width: 350px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 50%;
+    background-image: url(../images/ulya-bg-img.jpg);
+    
+    @media screen and (min-width: 768px) {
+        max-width: 450px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        max-width: 550px;
+    }
+}
+.party__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+.section__title {
+    color: black;
+    &.link {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: color 250ms linear;
+        &:hover,
+        &:focus {
+            color: var(--primary-accent-color);
+        }
+    }
+}

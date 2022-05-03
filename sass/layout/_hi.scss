@@ -1,0 +1,23 @@
+.madness {
+    max-width: 350px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 25%;
+    background-image: url(../images/serg-bg-img.jpg);
+    
+    @media screen and (min-width: 768px) {
+        max-width: 450px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        max-width: 550px;
+    }
+}
+.madness__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

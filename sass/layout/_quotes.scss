@@ -1,0 +1,47 @@
+.quotes__list {
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+}
+.quotes__item {
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: 767px) {
+        &:not(:first-child) {
+        margin-top: 30px;
+        }
+    }
+
+    @media screen and (min-width: 678px) {
+        flex-basis: calc(100%  / 2 - 30px);
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc(100% / 3 - 30px);
+    }
+}
+.quotes__description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.quotes__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.1;
+    color: black;
+}
+.quotes__text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.1;
+    color: black;
+}

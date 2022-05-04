@@ -38,6 +38,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+footer {
+  border-top: 2px solid var(--primary-text-color);
+  border-radius: 10%;
+  background-image: url(../images/Pai_Mei.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .body-ulya {
   background-image: url(../images/ulya-bg-img.jpg);
   background-repeat: no-repeat;
@@ -47,6 +56,13 @@ body {
 
 .body-serg {
   background-image: url(../images/serg-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.body-they {
+  background-image: url(../images/they-bg-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -216,6 +232,13 @@ body {
   background-size: cover;
 }
 
+.mobile-menu.they-mobile-menu {
+  background-image: url(../images/they-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .close-btn {
   background-color: transparent;
   border: none;
@@ -287,6 +310,7 @@ body {
 
 .hero {
   padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -457,6 +481,9 @@ body {
   border: 2px solid var(--primary-accent-color);
   border-radius: 25%;
   background-image: url(../images/serg-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -473,5 +500,121 @@ body {
 
 .madness__item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.model {
+  max-width: 350px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  border: 2px solid var(--primary-accent-color);
+  border-radius: 25%;
+  background-image: url(../images/serg-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .model {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .model {
+    max-width: 550px;
+  }
+}
+
+.model__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.love {
+  max-width: 350px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  border: 2px solid var(--primary-accent-color);
+  border-radius: 40%;
+  background-image: url(../images/they-bg-img.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .love {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .love {
+    max-width: 550px;
+  }
+}
+
+.love__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.travel {
+  max-width: 350px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  border: 2px solid var(--primary-accent-color);
+  border-radius: 40%;
+  background-image: url(../images/they-bg-img.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .travel {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .travel {
+    max-width: 550px;
+  }
+}
+
+.travel__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.happy {
+  max-width: 350px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  border: 2px solid var(--primary-accent-color);
+  border-radius: 40%;
+  background-image: url(../images/they-bg-img.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .happy {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .happy {
+    max-width: 550px;
+  }
+}
+
+.happy__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.happy__img {
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */

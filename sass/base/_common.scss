@@ -31,7 +31,14 @@ body {
     font-family: 'Caveat', cursive;
     letter-spacing: 0.03em;
 }
-
+footer {
+    border-top: 2px solid var(--primary-text-color);
+    border-radius: 10%;
+    background-image: url(../images/Pai_Mei.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .body-ulya {
     background-image: url(../images/ulya-bg-img.jpg);
     background-repeat: no-repeat;
@@ -41,6 +48,13 @@ body {
 
 .body-serg {
     background-image: url(../images/serg-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.body-they {
+    background-image: url(../images/they-bg-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

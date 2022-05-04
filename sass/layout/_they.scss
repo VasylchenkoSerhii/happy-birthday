@@ -1,0 +1,76 @@
+.love {
+    max-width: 350px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 40%;
+    background-image: url(../images/they-bg-img.jpg);
+
+    @media screen and (min-width: 768px) {
+        max-width: 450px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 550px;
+    }
+}
+.love__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.travel {
+    max-width: 350px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 40%;
+    background-image: url(../images/they-bg-img.jpg);
+
+    @media screen and (min-width: 768px) {
+        max-width: 450px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 550px;
+    }
+}
+
+.travel__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.happy {
+    max-width: 350px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 40%;
+    background-image: url(../images/they-bg-img.jpg);
+
+    @media screen and (min-width: 768px) {
+        max-width: 450px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 550px;
+    }
+}
+.happy__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+.happy__img {
+    margin-left: auto;
+    margin-right: auto;
+}
